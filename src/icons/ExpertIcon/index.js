@@ -1,0 +1,1 @@
+export { ExpertIcon } from "./ExpertIcon";

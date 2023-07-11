@@ -1,0 +1,51 @@
+.frame {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .group {
+  height: 32px;
+  min-width: 32px;
+  position: relative;
+}
+
+.frame .div {
+  height: 3px;
+  left: 10px;
+  position: relative;
+  top: 15px;
+  width: 12px;
+}
+
+.frame .ellipse {
+  background-color: var(--n-4);
+  border-radius: 1.5px;
+  height: 3px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.frame .ellipse-2 {
+  background-color: var(--n-4);
+  border-radius: 1.5px;
+  height: 3px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.frame .ellipse-3 {
+  background-color: var(--n-4);
+  border-radius: 1.5px;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
